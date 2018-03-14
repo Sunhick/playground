@@ -1,6 +1,8 @@
 module Main where
 
 import Lib
+import Initials
 
-main :: IO ()
-main = someFunc
+main = do
+  someFunc
+  print(initials "Sunil" "Murthy")
