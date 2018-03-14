@@ -8,20 +8,20 @@
 
 ### Typeclasses
 
-* Eq - equality
-* Ord - comparision
-* Show - String representation
-* Read - opposite of Show. Takes a string returns object
-* Enum - ordered types
-* Bounded - have upper and lower bounds
-* Num - numeric types (real + integral)
-* Integral - whole number types
-* Floating - decimal numebers
+* ```Eq``` - equality
+* ```Ord``` - comparision
+* ```Show``` - String representation
+* ```Read``` - opposite of Show. Takes a string returns object
+* ```Enum``` - ordered types
+* ```Bounded``` - have upper and lower bounds
+* ```Num``` - numeric types (real + integral)
+* ```Integral``` - whole number types
+* ```Floating``` - decimal numebers
 
 ### Build & package management systems
 
-* cabal - hackage
-* stack - stackage
+* ```cabal``` - hackage
+* ```stack``` - stackage
 
 ### Syntax
 
