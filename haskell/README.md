@@ -6,3 +6,7 @@
 * Functional programming
 * Referential transparency
 
+### Build & package management systems
+
+* cabal - hackage
+* stack - stackage
