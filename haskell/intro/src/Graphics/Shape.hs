@@ -1,8 +1,4 @@
-module Graphics.Shape ( Circle
-                      , Rectangle
-                      , Triangle
-                      , Rhombus
-                      ) where
+module Graphics.Shape where
 
 data Circle = Circle String String Int deriving (Show)
 data Rectangle = Rectangle String String Int deriving (Show)
