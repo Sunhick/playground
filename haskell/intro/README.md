@@ -1,4 +1,4 @@
-# intro
+# Introduction to using Stack
 
 ``` shell
 $ stack new project
