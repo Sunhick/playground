@@ -9,5 +9,5 @@ main = do
   print(initials "Sunil" "Murthy")
   print(initials "First" "Second")
 
-  let cir = Circle "circle" "30r" 30
+  let cir = Circle "circle" "30r" 3090
   print(cir)
