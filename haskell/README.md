@@ -2,7 +2,7 @@
 
 [Learn you a haskell](http://learnyouahaskell.com)
 
-
+* Category theory
 * Functional programming
 * Referential transparency
 * Lazy evaluation
@@ -64,4 +64,5 @@
 * [The marvels of monads](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
 * [All about monads](https://wiki.haskell.org/All_About_Monads)
 * [Haskell with Imperative programming](https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers)
-
+* [A Fistful of monads](http://learnyouahaskell.com/a-fistful-of-monads)
+* [Types of monads](https://en.wikipedia.org/wiki/Monad_(functional_programming))
