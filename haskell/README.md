@@ -53,3 +53,15 @@
 ### Custom types and typeclasses
 
 * ```data```, ```deriving```
+
+### Monads
+
+* Maybe
+* Just, Nothing
+* Bind
+* [What is monad?](https://stackoverflow.com/questions/44965/what-is-a-monad)
+* [Monads in Plain english](https://stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background)
+* [The marvels of monads](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
+* [All about monads](https://wiki.haskell.org/All_About_Monads)
+* [Haskell with Imperative programming](https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers)
+
