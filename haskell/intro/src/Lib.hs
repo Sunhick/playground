@@ -1,6 +1,7 @@
-module Lib
-  (
-    someFunc
-  ) where
+-- 
+-- Lib module
+-- 
+module Lib ( someFunc
+           ) where
 
 someFunc = putStrLn "someFunc"

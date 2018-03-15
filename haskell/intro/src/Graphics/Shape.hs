@@ -1,3 +1,6 @@
+-- 
+-- Graphics module with shape as a submodule
+-- 
 module Graphics.Shape ( Circle(..)
                       , Rectangle(..)
                       , Triangle(..)

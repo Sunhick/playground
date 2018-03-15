@@ -1,7 +1,8 @@
-module Initials
-  (
-    initials
-  ) where
+-- 
+-- Initials module
+--
+module Initials ( initials
+                ) where
 
 initials :: String -> String -> String  
 initials firstname lastname = [f] ++ ". " ++ [l] ++ "."  

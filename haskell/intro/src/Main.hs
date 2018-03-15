@@ -1,3 +1,6 @@
+--
+-- Main module
+-- 
 module Main where
 
 import Lib
