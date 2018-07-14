@@ -26,3 +26,37 @@
 ;; unload the feature
 (unload-feature 'greet-autoloads)
 (unload-feature 'greet)
+
+(quote (1 2 3))
+
+'(1 (2 3 4) (4) ())
+
+(car '(1 2 3 4))
+(cdr '(1 2 3 4))
+(cons 99 '(1 2 3 4))
+(cons '(1 2 3) '( 4 5 6))
+
+
+;; elisp variable can either point to a variable space
+;; or a function space. it will evaluate the variable based
+;; on the context. here cube is treated a function in (cube 3)
+;; just cube as a variable with string value "foo".
+(fset 'cube (lambda (x) (* x x x)))
+(setq cube "foo")
+(cube 3)
+cube
+(#'cube 6)
+
+
+;; function ending in p returns a bool (predicate)
+(oddp 3)
+
+(kbd "C-x h")
+
+major-mode
+
+;; (add-hook 'emacs-lisp-mode
+;;           (lambda()
+;;             (local-set-key (kbd "M-t") (message "hello"))))
+
+(describe-function 'print-hello)
