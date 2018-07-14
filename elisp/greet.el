@@ -9,4 +9,7 @@
   (interactive)
   (message "Hello World! %s %s" arg1 arg2))
 
+(defun add-numbers(a b)
+  (+ a b))
+
 (provide 'greet)
